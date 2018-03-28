@@ -15,7 +15,7 @@ Openshift signUp
 7. Once you see a success message in the log, click on Overview. Click on the Jenkins URL available on the right side of the page
 8. Click on login with Openshift
 9. Allow all permissions
-10 That's all !! Jenkins is up and running and you can start playing with Jenkins Dashboard.
+10. That's all !! Jenkins is up and running and you can start playing with Jenkins Dashboard.
 
 ## Setting up Maven in Jenkins 
 1. Go to Global Tool Configuration -> Maven -> Maven Installations -> Check automatic install and save. 
