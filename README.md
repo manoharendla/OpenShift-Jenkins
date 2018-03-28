@@ -63,3 +63,14 @@ Openshift signUp
 2. Automate Maven configuration in Global tool configuration
 3. Automate the Github credentials creation in Jenkins
 4. Creation of project in OpenShift client using expect scripting 
+5. Webhooks configuration for automation build
+
+ 
+# Analysis on Future Tasks:
+## How to automate Github and Jenkins Integration in Openshift
+1. Will be executed on OC client Machine
+2. An expect script is required that takes servie account user name and password
+3. oc login <login url>
+4. oc new-project   
+
+
