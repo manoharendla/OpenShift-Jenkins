@@ -1,5 +1,5 @@
-# Author: Manohar Endla
-# Date: 3/28/18
+### *Author: Manohar Endla*
+### *Date: 3/28/18*
 
 ## Prerequisities 
 Openshift signUp
@@ -33,5 +33,6 @@ Openshift signUp
    * oc rsh <podname>
  ```
 2. Check if you ssh is already configured using `ls -la ~/.ssh/`
-3. Geneate a new ssh key
-  `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
+3. Generate ssh keys and add the ssh-agent using the link [Generate SSH Keys](https://help.github.com/enterprise/2.12/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#platform-linux)
+  
+4. [Add the ssh public key in Github](https://help.github.com/enterprise/2.12/user/articles/adding-a-new-ssh-key-to-your-github-account/#platform-linux)
