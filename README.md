@@ -57,4 +57,10 @@ Openshift signUp
 
 
 
+# Future Tasks
+1. Script to automate the Github and Jenkins Integration
+2. Automate Maven configuration in Global tool configuration
+3. Automate the Github credentials creation in Jenkins
+
+
 
