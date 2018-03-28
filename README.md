@@ -1,10 +1,10 @@
-# OpenShift-Jenkins
-Jenkins 
+# Author: Manohar Endla
+# Date: 3/28/18
 
-# Prerequisities 
+## Prerequisities 
 Openshift signUp
 
-# How to create Jenkins instance on OpenShift
+## How to create Jenkins instance on OpenShift
 
 1. Logon to https://manage.openshift.com
 2. Open Webconsole
@@ -17,8 +17,8 @@ Openshift signUp
 9. Allow all permissions
 10 That's all !! Jenkins is up and running and you can start playing with Jenkins Dashboard.
 
-# Setting up Maven in Jenkins 
+## Setting up Maven in Jenkins 
 1. Go to Global Tool Configuration -> Maven -> Maven Installations -> Check automatic install and save. 
 
-# Setting up Jenkins and Github Integration
+## Setting up Jenkins and Github Integration
 ### How to establish an ssh connection between Jenkins instance and Github ? 
