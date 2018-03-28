@@ -61,6 +61,4 @@ Openshift signUp
 1. Script to automate the Github and Jenkins Integration
 2. Automate Maven configuration in Global tool configuration
 3. Automate the Github credentials creation in Jenkins
-
-
-
+4. Creation of project in OpenShift client using expect scripting 
