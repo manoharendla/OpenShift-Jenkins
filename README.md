@@ -36,3 +36,25 @@ Openshift signUp
 3. Generate ssh keys and add the ssh-agent using the link [Generate SSH Keys](https://help.github.com/enterprise/2.12/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#platform-linux)
   
 4. [Add the ssh public key in Github](https://help.github.com/enterprise/2.12/user/articles/adding-a-new-ssh-key-to-your-github-account/#platform-linux)
+
+## Creating Global credentials for Git in Jenkins 
+1. Logon to Jenkins
+2. Click on credentials from the Left Menu
+3. Provide the Github username, passowrd along with some ID and Description.
+
+
+## Creating Sample Pipeline job using Github+maven to test the configuration
+1. Click on new item
+2. Give a name and Select Pipeline
+3. Click on Ok
+4. Scroll down to pipeline build step, and select try github+maven 
+5. Modify the github url to point to the repo you require
+6. Modify the credentails ID
+7. Save and Build
+
+## Saxon build error 
+
+
+
+
+
