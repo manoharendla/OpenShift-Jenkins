@@ -22,3 +22,16 @@ Openshift signUp
 
 ## Setting up Jenkins and Github Integration
 ### How to establish an ssh connection between Jenkins instance and Github ? 
+
+1. Logon to Jenkins instance from terminal using below commands 
+```
+   * oc login http://manage.openshift.com
+   * Provide with your username and password
+   * oc get projects
+   * oc project <project name>
+   * oc get pods
+   * oc rsh <podname>
+ ```
+2. Check if you ssh is already configured using `ls -la ~/.ssh/`
+3. Geneate a new ssh key
+  `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
