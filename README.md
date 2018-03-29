@@ -66,27 +66,27 @@ Openshift signUp
 5. Webhooks configuration for automation build
 
  
-# Analysis on Future Tasks:
-## How to automate Github and Jenkins Integration in Openshift
+## Analysis on Future Tasks:
+### How to automate Github and Jenkins Integration in Openshift
 1. Will be executed on OC client Machine
 2. An expect script is required that takes servie account user name and password
 3. oc login <login url>
 4. oc new-project   
 
 
-# How to Copy Jenkin jobs from One master to another master server.
+## How to Copy Jenkin jobs from One master to another master server.
 
-## Using copy
+### Using copy
 1. Copy the Jobs folder located in JENKINS_HOME to new master server.
 
-## Using Job Importer plugin
+### Using Job Importer plugin
 
 
-## Using CLI
+### Using CLI
 
 
-## Create  customized docker image with all available jobs
+### Create  customized docker image with all available jobs
 
 
-## Using DSL create dsl scripts for all jobs and store in github repo. 
+### Using DSL create dsl scripts for all jobs and store in github repo. 
 
