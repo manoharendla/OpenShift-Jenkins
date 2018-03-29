@@ -74,3 +74,19 @@ Openshift signUp
 4. oc new-project   
 
 
+# How to Copy Jenkin jobs from One master to another master server.
+
+## Using copy
+1. Copy the Jobs folder located in JENKINS_HOME to new master server.
+
+## Using Job Importer plugin
+
+
+## Using CLI
+
+
+## Create  customized docker image with all available jobs
+
+
+## Using DSL create dsl scripts for all jobs and store in github repo. 
+
