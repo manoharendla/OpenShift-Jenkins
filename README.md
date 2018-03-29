@@ -78,15 +78,28 @@ Openshift signUp
 
 ### Using copy
 1. Copy the Jobs folder located in JENKINS_HOME to new master server.
+2. Reload the configuration from Jenkins->Manage Jenkins->Reload Configuration From Disk
+3. Jobs should be visible in the new Jenkins
 
 ### Using Job Importer plugin
 
 
 ### Using CLI
-
+1. java -jar jenkins-cli.jar -s http://<oldSever>:<oldSeverPort>/ list-jobs
+2. java -jar jenkins-cli.jar -s http://<oldSever>:<oldSeverPort>/ get-job "NAME_OF_JOB" > job.xml
+3. java -jar jenkins-cli.jar -s http://<newSever>:<newSever> create-job "NAME_OF_JOB" < job.xml
 
 ### Create  customized docker image with all available jobs
 
 
-### Using DSL create dsl scripts for all jobs and store in github repo. 
+
+### Using Jenkins-Job-Builder
+1. Create Job configuration in Yaml/Json format and store it on Github
+2. Clone it to the new jenkins instance 
+3. job-builder --conf ~/conf.ini --ignore-cache test ci/jobs "Jenkins-Jobs*"
+4. job-builder --conf ~/conf.ini --ignore-cache update ci/jobs "Jenkins-Jobs*" -- To create the jobs on new jenkins instance
+
+
+
+### Using DSL/Pipeline create dsl scripts for all jobs and store in github repo. 
 
